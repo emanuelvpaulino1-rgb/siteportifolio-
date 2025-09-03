@@ -1,0 +1,2019 @@
+<!DOCTYPE html>
+<!-- saved from url=(0140)https://bmcj13qkvr9hyehn.canva-hosted-embed.com/codelet/AAEAEGJtY2oxM3FrdnI5aHllaG4AAAAAAZkSOR6o6W9iB2gWLcVi4r3Ax-MjtHAmfR7FjeDBaQlPZtHdxmE/ -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Portfolio - v24</title>
+    <script src="./saved_resource"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap');
+        
+        :root {
+            --primary-dark: #0f0f23;
+            --secondary-dark: #1a1a2e;
+            --accent-blue: #3b82f6;
+            --accent-purple: #9333ea;
+            --accent-emerald: #10b981;
+            --text-primary: #f8fafc;
+            --text-secondary: #cbd5e1;
+            --border-color: rgba(59, 130, 246, 0.2);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Rajdhani', sans-serif;
+            background: linear-gradient(135deg, var(--primary-purple) 0%, var(--secondary-purple) 100%);
+            color: white;
+            overflow-x: hidden;
+        }
+
+        .orbitron {
+            font-family: 'Orbitron', monospace;
+        }
+
+        /* Modern Neon Gradient Background */
+        .bg-animated {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: 
+                radial-gradient(ellipse at top left, rgba(88, 28, 135, 0.4) 0%, transparent 50%),
+                radial-gradient(ellipse at top right, rgba(107, 33, 168, 0.3) 0%, transparent 50%),
+                radial-gradient(ellipse at bottom left, rgba(76, 29, 149, 0.35) 0%, transparent 50%),
+                radial-gradient(ellipse at bottom right, rgba(91, 33, 182, 0.25) 0%, transparent 50%),
+                linear-gradient(135deg, 
+                    #0f0b1f 0%,
+                    #1a1332 15%, 
+                    #2d1b4e 30%, 
+                    #4c1d95 45%, 
+                    #5b21b6 60%, 
+                    #6d28d9 75%, 
+                    #7c3aed 90%, 
+                    #8b5cf6 100%
+                );
+        }
+
+        .bg-animated::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 20% 30%, rgba(88, 28, 135, 0.5) 0%, transparent 40%),
+                radial-gradient(circle at 80% 20%, rgba(107, 33, 168, 0.4) 0%, transparent 40%),
+                radial-gradient(circle at 40% 70%, rgba(76, 29, 149, 0.45) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(91, 33, 182, 0.35) 0%, transparent 40%),
+                radial-gradient(circle at 10% 90%, rgba(124, 58, 237, 0.3) 0%, transparent 40%),
+                /* Grid tecnológico */
+                linear-gradient(90deg, rgba(59, 130, 246, 0.1) 1px, transparent 1px),
+                linear-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px),
+                /* Linhas de circuito */
+                linear-gradient(45deg, transparent 48%, rgba(59, 130, 246, 0.15) 49%, rgba(59, 130, 246, 0.15) 51%, transparent 52%),
+                linear-gradient(-45deg, transparent 48%, rgba(147, 51, 234, 0.1) 49%, rgba(147, 51, 234, 0.1) 51%, transparent 52%);
+            background-size: 
+                100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%,
+                40px 40px, 40px 40px,
+                80px 80px, 120px 120px;
+            animation: neonPulse 6s ease-in-out infinite alternate, techGrid 20s linear infinite;
+        }
+
+        .bg-animated::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                linear-gradient(45deg, transparent 30%, rgba(147, 51, 234, 0.1) 50%, transparent 70%),
+                linear-gradient(-45deg, transparent 30%, rgba(168, 85, 247, 0.08) 50%, transparent 70%),
+                linear-gradient(90deg, transparent 40%, rgba(124, 58, 237, 0.06) 60%, transparent 80%);
+            animation: neonFlow 12s linear infinite;
+        }
+
+        @keyframes neonPulse {
+            0% { 
+                opacity: 0.7; 
+                transform: scale(1) rotate(0deg);
+            }
+            50% { 
+                opacity: 1; 
+                transform: scale(1.05) rotate(1deg);
+            }
+            100% { 
+                opacity: 0.8; 
+                transform: scale(1.02) rotate(-0.5deg);
+            }
+        }
+
+        @keyframes neonFlow {
+            0% { 
+                transform: translateX(-100%) translateY(-100%) rotate(0deg);
+                opacity: 0.3;
+            }
+            25% { 
+                transform: translateX(0%) translateY(-50%) rotate(90deg);
+                opacity: 0.6;
+            }
+            50% { 
+                transform: translateX(50%) translateY(0%) rotate(180deg);
+                opacity: 0.8;
+            }
+            75% { 
+                transform: translateX(100%) translateY(50%) rotate(270deg);
+                opacity: 0.4;
+            }
+            100% { 
+                transform: translateX(200%) translateY(100%) rotate(360deg);
+                opacity: 0.2;
+            }
+        }
+
+        @keyframes techGrid {
+            0% { 
+                background-position: 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0;
+            }
+            100% { 
+                background-position: 0 0, 0 0, 0 0, 0 0, 0 0, 40px 40px, 40px 40px, 80px 80px, 120px 120px;
+            }
+        }
+
+        /* Modern floating particles */
+        .particle {
+            position: absolute;
+            width: 3px;
+            height: 3px;
+            background: var(--accent-blue);
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(59, 130, 246, 0.6);
+            animation: modernFloat 8s ease-in-out infinite;
+        }
+
+        /* Technological Elements */
+        .tech-elements {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .circuit-node {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background: transparent;
+            border: 2px solid rgba(59, 130, 246, 0.6);
+            border-radius: 50%;
+            animation: circuitPulse 4s ease-in-out infinite;
+        }
+
+        .circuit-node::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 6px;
+            height: 6px;
+            background: rgba(59, 130, 246, 0.8);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            animation: nodePulse 2s ease-in-out infinite alternate;
+        }
+
+        .circuit-node::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 20px;
+            height: 20px;
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            animation: nodeRing 3s linear infinite;
+        }
+
+        .data-stream {
+            position: absolute;
+            width: 2px;
+            height: 60px;
+            background: linear-gradient(to bottom, 
+                transparent 0%, 
+                rgba(59, 130, 246, 0.8) 20%, 
+                rgba(147, 51, 234, 0.6) 50%, 
+                rgba(59, 130, 246, 0.8) 80%, 
+                transparent 100%);
+            animation: dataFlow 3s linear infinite;
+        }
+
+        .holo-ring {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            border: 1px solid rgba(147, 51, 234, 0.4);
+            border-radius: 50%;
+            animation: holoRotate 8s linear infinite;
+        }
+
+        .holo-ring::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 60px;
+            height: 60px;
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            animation: holoRotate 12s linear infinite reverse;
+        }
+
+        .holo-ring::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 20px;
+            height: 20px;
+            border: 1px solid rgba(147, 51, 234, 0.6);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            animation: holoPulse 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes modernFloat {
+            0%, 100% { 
+                transform: translateY(0px) translateX(0px) scale(1); 
+                opacity: 0.6;
+            }
+            25% { 
+                transform: translateY(-15px) translateX(10px) scale(1.2); 
+                opacity: 1;
+            }
+            50% { 
+                transform: translateY(-25px) translateX(-5px) scale(0.8); 
+                opacity: 0.8;
+            }
+            75% { 
+                transform: translateY(-10px) translateX(-15px) scale(1.1); 
+                opacity: 0.9;
+            }
+        }
+
+        @keyframes circuitPulse {
+            0%, 100% { 
+                transform: scale(1); 
+                opacity: 0.6;
+                box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
+            }
+            50% { 
+                transform: scale(1.2); 
+                opacity: 1;
+                box-shadow: 0 0 20px rgba(59, 130, 246, 0.6);
+            }
+        }
+
+        @keyframes nodePulse {
+            0% { 
+                opacity: 0.4; 
+                transform: translate(-50%, -50%) scale(0.8);
+            }
+            100% { 
+                opacity: 1; 
+                transform: translate(-50%, -50%) scale(1.2);
+            }
+        }
+
+        @keyframes nodeRing {
+            0% { 
+                transform: translate(-50%, -50%) scale(0.8) rotate(0deg); 
+                opacity: 0.8;
+            }
+            50% { 
+                transform: translate(-50%, -50%) scale(1.2) rotate(180deg); 
+                opacity: 0.4;
+            }
+            100% { 
+                transform: translate(-50%, -50%) scale(0.8) rotate(360deg); 
+                opacity: 0.8;
+            }
+        }
+
+        @keyframes dataFlow {
+            0% { 
+                transform: translateY(-100px) scaleY(0); 
+                opacity: 0;
+            }
+            20% { 
+                transform: translateY(-50px) scaleY(1); 
+                opacity: 1;
+            }
+            80% { 
+                transform: translateY(50px) scaleY(1); 
+                opacity: 1;
+            }
+            100% { 
+                transform: translateY(100px) scaleY(0); 
+                opacity: 0;
+            }
+        }
+
+        @keyframes holoRotate {
+            0% { 
+                transform: rotate(0deg) scale(1); 
+                opacity: 0.4;
+            }
+            50% { 
+                transform: rotate(180deg) scale(1.1); 
+                opacity: 0.8;
+            }
+            100% { 
+                transform: rotate(360deg) scale(1); 
+                opacity: 0.4;
+            }
+        }
+
+        @keyframes holoPulse {
+            0% { 
+                transform: translate(-50%, -50%) scale(0.8); 
+                opacity: 0.6;
+            }
+            100% { 
+                transform: translate(-50%, -50%) scale(1.2); 
+                opacity: 1;
+            }
+        }
+
+        /* Modern glow effects */
+        .neon-glow {
+            box-shadow: 
+                0 0 10px rgba(59, 130, 246, 0.3),
+                0 0 20px rgba(59, 130, 246, 0.2),
+                0 0 30px rgba(59, 130, 246, 0.1);
+        }
+
+        .neon-text {
+            text-shadow: 
+                0 0 10px rgba(59, 130, 246, 0.5),
+                0 0 20px rgba(59, 130, 246, 0.3),
+                0 0 30px rgba(59, 130, 246, 0.2);
+            color: var(--text-primary);
+        }
+
+        /* Modern card effect */
+        .holo-card {
+            background: linear-gradient(135deg, 
+                rgba(59, 130, 246, 0.08) 0%, 
+                rgba(147, 51, 234, 0.08) 50%, 
+                rgba(16, 185, 129, 0.08) 100%);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--border-color);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .holo-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.1), transparent);
+            transition: left 0.6s ease;
+        }
+
+        .holo-card:hover::before {
+            left: 100%;
+        }
+
+        .holo-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 
+                0 25px 50px rgba(59, 130, 246, 0.15),
+                0 0 30px rgba(59, 130, 246, 0.2);
+            border-color: rgba(59, 130, 246, 0.4);
+        }
+
+        /* Glitch effect */
+        .glitch {
+            position: relative;
+            animation: glitch 2s infinite;
+        }
+
+        @keyframes glitch {
+            0%, 100% { transform: translate(0); }
+            20% { transform: translate(-2px, 2px); }
+            40% { transform: translate(-2px, -2px); }
+            60% { transform: translate(2px, 2px); }
+            80% { transform: translate(2px, -2px); }
+        }
+
+        /* Typing animation */
+        .typing {
+            border-right: 2px solid var(--neon-purple);
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0%, 50% { border-color: transparent; }
+            51%, 100% { border-color: var(--neon-purple); }
+        }
+
+        /* Scan line effect */
+        .scan-line {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .scan-line::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, 
+                transparent, 
+                rgba(76, 201, 240, 0.4), 
+                transparent);
+            animation: scan 3s infinite;
+        }
+
+        @keyframes scan {
+            0% { left: -100%; }
+            100% { left: 100%; }
+        }
+
+        /* Circuit pattern */
+        .circuit-bg {
+            background-image: 
+                linear-gradient(90deg, rgba(166, 99, 204, 0.1) 1px, transparent 1px),
+                linear-gradient(rgba(166, 99, 204, 0.1) 1px, transparent 1px);
+            background-size: 20px 20px;
+            animation: circuit-move 20s linear infinite;
+        }
+
+        @keyframes circuit-move {
+            0% { background-position: 0 0; }
+            100% { background-position: 20px 20px; }
+        }
+
+        @keyframes energyFlow {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(300%); }
+        }
+
+        /* Modern button effects */
+        .cyber-btn {
+            position: relative;
+            background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+            border: 1px solid var(--border-color);
+            padding: 14px 32px;
+            color: var(--text-primary);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            overflow: hidden;
+            border-radius: 8px;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            backdrop-filter: blur(10px);
+        }
+
+        .cyber-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
+            transition: left 0.6s ease;
+        }
+
+        .cyber-btn:hover::before {
+            left: 100%;
+        }
+
+        .cyber-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 
+                0 15px 35px rgba(59, 130, 246, 0.25),
+                0 5px 15px rgba(59, 130, 246, 0.4);
+            border-color: rgba(59, 130, 246, 0.6);
+        }
+
+        /* Progress bars */
+        .skill-bar {
+            background: rgba(166, 99, 204, 0.2);
+            height: 8px;
+            border-radius: 4px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .skill-progress {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-purple), var(--electric-blue));
+            border-radius: 4px;
+            position: relative;
+            animation: skill-load 2s ease-out;
+        }
+
+        @keyframes skill-load {
+            0% { width: 0%; }
+        }
+
+        .skill-progress::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            animation: skill-shine 2s infinite;
+        }
+
+        @keyframes skill-shine {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+
+        /* Futuristic Portfolio Gallery Styles */
+        .cyber-gallery-container {
+            perspective: 1000px;
+        }
+
+        .main-display {
+            transform-style: preserve-3d;
+            transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .scan-lines {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: repeating-linear-gradient(
+                0deg,
+                transparent,
+                transparent 2px,
+                rgba(59, 130, 246, 0.1) 2px,
+                rgba(59, 130, 246, 0.1) 4px
+            );
+            animation: scanMove 2s linear infinite;
+        }
+
+        @keyframes scanMove {
+            0% { transform: translateY(-100%); }
+            100% { transform: translateY(100%); }
+        }
+
+        .circular-nav {
+            transform-style: preserve-3d;
+        }
+
+        .thumbnail-orbit {
+            position: absolute;
+            inset: 0;
+            border-radius: 50%;
+        }
+
+        .thumbnail-item {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 80px;
+            height: 80px;
+            transform-origin: 0 0;
+            transform: 
+                translate(-50%, -50%) 
+                rotate(var(--angle)) 
+                translateX(140px) 
+                rotate(calc(-1 * var(--angle)));
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+        }
+
+        .thumbnail-wrapper {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid rgba(59, 130, 246, 0.3);
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(147, 51, 234, 0.2));
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .thumbnail-wrapper::before {
+            content: '';
+            position: absolute;
+            inset: -2px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, transparent, rgba(59, 130, 246, 0.5), transparent);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .thumbnail-item:hover .thumbnail-wrapper {
+            transform: scale(1.2);
+            border-color: rgba(59, 130, 246, 0.8);
+            box-shadow: 
+                0 0 20px rgba(59, 130, 246, 0.4),
+                0 0 40px rgba(59, 130, 246, 0.2);
+        }
+
+        .thumbnail-item:hover .thumbnail-wrapper::before {
+            opacity: 1;
+        }
+
+        .thumbnail-item.active .thumbnail-wrapper {
+            border-color: rgba(59, 130, 246, 1);
+            box-shadow: 
+                0 0 30px rgba(59, 130, 246, 0.6),
+                0 0 60px rgba(59, 130, 246, 0.3);
+            transform: scale(1.3);
+        }
+
+        .thumbnail-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: all 0.3s ease;
+        }
+
+        .cyber-btn-small {
+            padding: 12px;
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(147, 51, 234, 0.2));
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            border-radius: 50%;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .cyber-btn-small:hover {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.4), rgba(147, 51, 234, 0.4));
+            border-color: rgba(59, 130, 246, 0.6);
+            box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+            transform: scale(1.1);
+        }
+
+        @keyframes spin-slow {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        @keyframes spin-reverse {
+            from { transform: rotate(360deg); }
+            to { transform: rotate(0deg); }
+        }
+
+        .animate-spin-slow {
+            animation: spin-slow 20s linear infinite;
+        }
+
+        .animate-spin-reverse {
+            animation: spin-reverse 15s linear infinite;
+        }
+
+        /* Holographic text effect */
+        .holo-text {
+            background: linear-gradient(45deg, #3b82f6, #9333ea, #10b981, #3b82f6);
+            background-size: 400% 400%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: holoShift 3s ease-in-out infinite;
+        }
+
+        @keyframes holoShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        /* Loading line animation */
+        @keyframes loading-line {
+            0% { 
+                transform: translateX(-100%); 
+                opacity: 0;
+            }
+            50% { 
+                opacity: 1; 
+            }
+            100% { 
+                transform: translateX(300%); 
+                opacity: 0;
+            }
+        }
+
+        .animate-loading-line {
+            animation: loading-line 3s ease-in-out infinite;
+        }
+
+        /* Glitch effect for transitions */
+        .glitch-transition {
+            animation: glitchTransition 0.3s ease-in-out;
+        }
+
+        @keyframes glitchTransition {
+            0%, 100% { transform: translate(0); filter: hue-rotate(0deg); }
+            20% { transform: translate(-2px, 2px); filter: hue-rotate(90deg); }
+            40% { transform: translate(-2px, -2px); filter: hue-rotate(180deg); }
+            60% { transform: translate(2px, 2px); filter: hue-rotate(270deg); }
+            80% { transform: translate(2px, -2px); filter: hue-rotate(360deg); }
+        }
+
+        /* Dark Mode Slider Styles */
+        .dark-mode-slider {
+            position: relative;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .dark-mode-slider:hover {
+            box-shadow: 
+                0 0 30px rgba(59, 130, 246, 0.4),
+                0 0 60px rgba(147, 51, 234, 0.2);
+            transform: scale(1.02);
+        }
+
+        .slider-glow {
+            box-shadow: 
+                0 0 20px rgba(59, 130, 246, 0.6),
+                0 0 40px rgba(147, 51, 234, 0.4),
+                0 0 60px rgba(6, 182, 212, 0.2);
+        }
+
+        /* Dark Mode Activated Styles */
+        body.dark-mode-active {
+            background: linear-gradient(135deg, #000000 0%, #1a0033 25%, #000066 50%, #330066 75%, #000000 100%);
+            animation: darkModeShake 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        body.dark-mode-active .bg-animated {
+            background: 
+                radial-gradient(ellipse at top left, rgba(0, 0, 0, 0.8) 0%, transparent 50%),
+                radial-gradient(ellipse at top right, rgba(26, 0, 51, 0.7) 0%, transparent 50%),
+                radial-gradient(ellipse at bottom left, rgba(0, 0, 102, 0.6) 0%, transparent 50%),
+                radial-gradient(ellipse at bottom right, rgba(51, 0, 102, 0.5) 0%, transparent 50%),
+                linear-gradient(135deg, 
+                    #000000 0%,
+                    #1a0033 15%, 
+                    #000066 30%, 
+                    #330066 45%, 
+                    #000000 60%, 
+                    #1a0033 75%, 
+                    #000066 90%, 
+                    #330066 100%
+                );
+        }
+
+        body.dark-mode-active .bg-animated::before {
+            background: 
+                radial-gradient(circle at 20% 30%, rgba(0, 0, 0, 0.9) 0%, transparent 40%),
+                radial-gradient(circle at 80% 20%, rgba(26, 0, 51, 0.8) 0%, transparent 40%),
+                radial-gradient(circle at 40% 70%, rgba(0, 0, 102, 0.7) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(51, 0, 102, 0.6) 0%, transparent 40%),
+                radial-gradient(circle at 10% 90%, rgba(0, 0, 0, 0.8) 0%, transparent 40%),
+                /* Enhanced grid tecnológico */
+                linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+                linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+                /* Enhanced circuit lines */
+                linear-gradient(45deg, transparent 48%, rgba(255, 255, 255, 0.2) 49%, rgba(255, 255, 255, 0.2) 51%, transparent 52%),
+                linear-gradient(-45deg, transparent 48%, rgba(59, 130, 246, 0.15) 49%, rgba(59, 130, 246, 0.15) 51%, transparent 52%);
+        }
+
+        body.dark-mode-active .holo-card {
+            background: linear-gradient(135deg, 
+                rgba(0, 0, 0, 0.8) 0%, 
+                rgba(26, 0, 51, 0.6) 50%, 
+                rgba(0, 0, 102, 0.4) 100%);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        body.dark-mode-active .neon-text {
+            text-shadow: 
+                0 0 15px rgba(255, 255, 255, 0.8),
+                0 0 30px rgba(59, 130, 246, 0.6),
+                0 0 45px rgba(147, 51, 234, 0.4);
+            color: #ffffff;
+        }
+
+        body.dark-mode-active .cyber-btn {
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(26, 0, 51, 0.6));
+            border-color: rgba(255, 255, 255, 0.3);
+            color: #ffffff;
+        }
+
+        body.dark-mode-active .cyber-btn:hover {
+            box-shadow: 
+                0 15px 35px rgba(255, 255, 255, 0.2),
+                0 5px 15px rgba(59, 130, 246, 0.3);
+        }
+
+        /* Smooth Earthquake/Shake Animation */
+        @keyframes darkModeShake {
+            0%, 100% { 
+                transform: translateX(0) translateY(0) rotate(0deg); 
+                filter: blur(0px);
+            }
+            5% { 
+                transform: translateX(-2px) translateY(1px) rotate(-0.2deg); 
+                filter: blur(0.5px);
+            }
+            10% { 
+                transform: translateX(3px) translateY(-1px) rotate(0.3deg); 
+                filter: blur(0.8px);
+            }
+            15% { 
+                transform: translateX(-3px) translateY(2px) rotate(-0.2deg); 
+                filter: blur(1px);
+            }
+            20% { 
+                transform: translateX(2px) translateY(-2px) rotate(0.4deg); 
+                filter: blur(0.8px);
+            }
+            25% { 
+                transform: translateX(-4px) translateY(1px) rotate(-0.3deg); 
+                filter: blur(1.2px);
+            }
+            30% { 
+                transform: translateX(4px) translateY(-1px) rotate(0.2deg); 
+                filter: blur(1px);
+            }
+            35% { 
+                transform: translateX(-2px) translateY(2px) rotate(-0.4deg); 
+                filter: blur(0.8px);
+            }
+            40% { 
+                transform: translateX(3px) translateY(-2px) rotate(0.3deg); 
+                filter: blur(1px);
+            }
+            45% { 
+                transform: translateX(-3px) translateY(1px) rotate(-0.2deg); 
+                filter: blur(0.6px);
+            }
+            50% { 
+                transform: translateX(2px) translateY(-1px) rotate(0.2deg); 
+                filter: blur(0.8px);
+            }
+            55% { 
+                transform: translateX(-2px) translateY(1px) rotate(-0.3deg); 
+                filter: blur(0.5px);
+            }
+            60% { 
+                transform: translateX(2px) translateY(-1px) rotate(0.2deg); 
+                filter: blur(0.6px);
+            }
+            65% { 
+                transform: translateX(-1px) translateY(1px) rotate(-0.1deg); 
+                filter: blur(0.4px);
+            }
+            70% { 
+                transform: translateX(1px) translateY(-1px) rotate(0.1deg); 
+                filter: blur(0.3px);
+            }
+            75% { 
+                transform: translateX(-1px) translateY(0.5px) rotate(-0.1deg); 
+                filter: blur(0.2px);
+            }
+            80% { 
+                transform: translateX(1px) translateY(-0.5px) rotate(0.1deg); 
+                filter: blur(0.2px);
+            }
+            85% { 
+                transform: translateX(-0.5px) translateY(0.5px) rotate(-0.05deg); 
+                filter: blur(0.1px);
+            }
+            90% { 
+                transform: translateX(0.5px) translateY(-0.5px) rotate(0.05deg); 
+                filter: blur(0.1px);
+            }
+            95% { 
+                transform: translateX(-0.2px) translateY(0.2px) rotate(-0.02deg); 
+                filter: blur(0.05px);
+            }
+        }
+
+        /* Smooth Energy Wave Effect for Dark Mode Transition */
+        @keyframes darkModeEnergyWave {
+            0% { 
+                transform: translate(0) scale(1); 
+                filter: hue-rotate(0deg) contrast(1) brightness(1);
+                box-shadow: 0 0 0 rgba(59, 130, 246, 0);
+            }
+            15% { 
+                transform: translate(-1px, 0.5px) scale(1.01); 
+                filter: hue-rotate(45deg) contrast(1.1) brightness(1.1);
+                box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+            }
+            30% { 
+                transform: translate(1px, -0.5px) scale(1.02); 
+                filter: hue-rotate(90deg) contrast(1.2) brightness(1.2);
+                box-shadow: 0 0 30px rgba(147, 51, 234, 0.4);
+            }
+            45% { 
+                transform: translate(-0.5px, 1px) scale(1.01); 
+                filter: hue-rotate(135deg) contrast(1.1) brightness(1.15);
+                box-shadow: 0 0 25px rgba(6, 182, 212, 0.35);
+            }
+            60% { 
+                transform: translate(0.5px, -1px) scale(1.015); 
+                filter: hue-rotate(180deg) contrast(1.15) brightness(1.1);
+                box-shadow: 0 0 35px rgba(16, 185, 129, 0.3);
+            }
+            75% { 
+                transform: translate(-0.3px, 0.3px) scale(1.005); 
+                filter: hue-rotate(225deg) contrast(1.05) brightness(1.05);
+                box-shadow: 0 0 15px rgba(59, 130, 246, 0.2);
+            }
+            90% { 
+                transform: translate(0.2px, -0.2px) scale(1.002); 
+                filter: hue-rotate(270deg) contrast(1.02) brightness(1.02);
+                box-shadow: 0 0 10px rgba(147, 51, 234, 0.15);
+            }
+            100% { 
+                transform: translate(0) scale(1); 
+                filter: hue-rotate(360deg) contrast(1) brightness(1);
+                box-shadow: 0 0 0 rgba(59, 130, 246, 0);
+            }
+        }
+
+        .dark-mode-glitch {
+            animation: darkModeEnergyWave 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        /* Enhanced particle effects for dark mode */
+        body.dark-mode-active .particle {
+            background: #ffffff;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+        }
+
+        body.dark-mode-active .circuit-node {
+            border-color: rgba(255, 255, 255, 0.8);
+        }
+
+        body.dark-mode-active .circuit-node::before {
+            background: rgba(255, 255, 255, 0.9);
+        }
+
+        body.dark-mode-active .data-stream {
+            background: linear-gradient(to bottom, 
+                transparent 0%, 
+                rgba(255, 255, 255, 0.8) 20%, 
+                rgba(59, 130, 246, 0.6) 50%, 
+                rgba(255, 255, 255, 0.8) 80%, 
+                transparent 100%);
+        }
+
+        /* Desktop Optimized Styles */
+        .optimized-performance {
+            will-change: transform;
+            transform: translateZ(0);
+            backface-visibility: hidden;
+        }
+
+        .gpu-accelerated {
+            transform: translate3d(0, 0, 0);
+        }
+
+        /* Performance Optimizations */
+        * {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .holo-card, .cyber-btn, .neon-text {
+            will-change: transform, opacity;
+            transform: translateZ(0);
+        }
+
+        /* Optimized animations */
+        @keyframes optimizedFloat {
+            0%, 100% { 
+                transform: translate3d(0, 0, 0) scale(1); 
+                opacity: 0.6;
+            }
+            50% { 
+                transform: translate3d(0, -25px, 0) scale(1.1); 
+                opacity: 1;
+            }
+        }
+
+        .particle {
+            animation: optimizedFloat 8s ease-in-out infinite;
+        }
+
+        /* Reduce motion for better performance */
+        .circuit-node, .data-stream, .holo-ring {
+            animation-duration: 6s;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .orbitron {
+                font-size: 2rem;
+            }
+            
+            .grid-cols-2 {
+                grid-template-columns: 1fr;
+            }
+            
+            .grid-cols-3 {
+                grid-template-columns: 1fr;
+            }
+            
+            .text-7xl {
+                font-size: 3rem;
+            }
+            
+            .text-6xl {
+                font-size: 2.5rem;
+            }
+            
+            .container {
+                padding: 0 1rem;
+            }
+        }
+    </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.container{width:100%}@media (min-width: 640px){.container{max-width:640px}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}.pointer-events-none{pointer-events:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.inset-1{inset:0.25rem}.bottom-2{bottom:0.5rem}.bottom-20{bottom:5rem}.bottom-3{bottom:0.75rem}.left-1{left:0.25rem}.left-10{left:2.5rem}.left-12{left:3rem}.left-2{left:0.5rem}.left-4{left:1rem}.left-8{left:2rem}.right-10{right:2.5rem}.right-12{right:3rem}.right-2{right:0.5rem}.right-4{right:1rem}.right-6{right:1.5rem}.top-0{top:0px}.top-1{top:0.25rem}.top-2{top:0.5rem}.top-20{top:5rem}.top-4{top:1rem}.top-6{top:1.5rem}.z-10{z-index:10}.z-20{z-index:20}.z-30{z-index:30}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-12{margin-bottom:3rem}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:0.5rem}.mb-20{margin-bottom:5rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.mt-12{margin-top:3rem}.mt-3{margin-top:0.75rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.mt-8{margin-top:2rem}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-0\.5{height:0.125rem}.h-1{height:0.25rem}.h-1\.5{height:0.375rem}.h-10{height:2.5rem}.h-12{height:3rem}.h-16{height:4rem}.h-2{height:0.5rem}.h-20{height:5rem}.h-5{height:1.25rem}.h-6{height:1.5rem}.h-8{height:2rem}.h-96{height:24rem}.h-full{height:100%}.min-h-screen{min-height:100vh}.w-0\.5{width:0.125rem}.w-1{width:0.25rem}.w-1\.5{width:0.375rem}.w-1\/3{width:33.333333%}.w-10{width:2.5rem}.w-12{width:3rem}.w-16{width:4rem}.w-2{width:0.5rem}.w-20{width:5rem}.w-24{width:6rem}.w-5{width:1.25rem}.w-6{width:1.5rem}.w-8{width:2rem}.w-80{width:20rem}.w-full{width:100%}.max-w-4xl{max-width:56rem}.max-w-6xl{max-width:72rem}.max-w-md{max-width:28rem}.rotate-12{--tw-rotate:12deg;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.rotate-45{--tw-rotate:45deg;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes bounce{0%, 100%{transform:translateY(-25%);animation-timing-function:cubic-bezier(0.8,0,1,1)}50%{transform:none;animation-timing-function:cubic-bezier(0,0,0.2,1)}}.animate-bounce{animation:bounce 1s infinite}@keyframes ping{75%, 100%{transform:scale(2);opacity:0}}.animate-ping{animation:ping 1s cubic-bezier(0, 0, 0.2, 1) infinite}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite}@keyframes spin{to{transform:rotate(360deg)}}.animate-spin{animation:spin 1s linear infinite}.cursor-grab{cursor:grab}.cursor-pointer{cursor:pointer}.resize-none{resize:none}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.flex-row{flex-direction:row}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-12{gap:3rem}.gap-4{gap:1rem}.gap-8{gap:2rem}.space-x-3 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.75rem * var(--tw-space-x-reverse));margin-left:calc(0.75rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-6 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1.5rem * var(--tw-space-x-reverse));margin-left:calc(1.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-8 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-blue-400{--tw-border-opacity:1;border-color:rgb(96 165 250 / var(--tw-border-opacity, 1))}.border-cyan-400\/30{border-color:rgb(34 211 238 / 0.3)}.border-emerald-400\/30{border-color:rgb(52 211 153 / 0.3)}.border-pink-400\/30{border-color:rgb(244 114 182 / 0.3)}.border-purple-400{--tw-border-opacity:1;border-color:rgb(192 132 252 / var(--tw-border-opacity, 1))}.border-purple-500\/30{border-color:rgb(168 85 247 / 0.3)}.border-white\/10{border-color:rgb(255 255 255 / 0.1)}.border-white\/20{border-color:rgb(255 255 255 / 0.2)}.bg-black\/20{background-color:rgb(0 0 0 / 0.2)}.bg-blue-400{--tw-bg-opacity:1;background-color:rgb(96 165 250 / var(--tw-bg-opacity, 1))}.bg-cyan-300{--tw-bg-opacity:1;background-color:rgb(103 232 249 / var(--tw-bg-opacity, 1))}.bg-cyan-400{--tw-bg-opacity:1;background-color:rgb(34 211 238 / var(--tw-bg-opacity, 1))}.bg-emerald-400{--tw-bg-opacity:1;background-color:rgb(52 211 153 / var(--tw-bg-opacity, 1))}.bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.bg-pink-400{--tw-bg-opacity:1;background-color:rgb(244 114 182 / var(--tw-bg-opacity, 1))}.bg-purple-300{--tw-bg-opacity:1;background-color:rgb(216 180 254 / var(--tw-bg-opacity, 1))}.bg-purple-400{--tw-bg-opacity:1;background-color:rgb(192 132 252 / var(--tw-bg-opacity, 1))}.bg-transparent{background-color:transparent}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-blue-500{--tw-gradient-from:#3b82f6 var(--tw-gradient-from-position);--tw-gradient-to:rgb(59 130 246 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-500\/20{--tw-gradient-from:rgb(59 130 246 / 0.2) var(--tw-gradient-from-position);--tw-gradient-to:rgb(59 130 246 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-500{--tw-gradient-from:#10b981 var(--tw-gradient-from-position);--tw-gradient-to:rgb(16 185 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-500\/20{--tw-gradient-from:rgb(16 185 129 / 0.2) var(--tw-gradient-from-position);--tw-gradient-to:rgb(16 185 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-gray-800{--tw-gradient-from:#1f2937 var(--tw-gradient-from-position);--tw-gradient-to:rgb(31 41 55 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-pink-500{--tw-gradient-from:#ec4899 var(--tw-gradient-from-position);--tw-gradient-to:rgb(236 72 153 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-pink-500\/20{--tw-gradient-from:rgb(236 72 153 / 0.2) var(--tw-gradient-from-position);--tw-gradient-to:rgb(236 72 153 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-purple-400{--tw-gradient-from:#c084fc var(--tw-gradient-from-position);--tw-gradient-to:rgb(192 132 252 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-purple-500{--tw-gradient-from:#a855f7 var(--tw-gradient-from-position);--tw-gradient-to:rgb(168 85 247 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-purple-600{--tw-gradient-from:#9333ea var(--tw-gradient-from-position);--tw-gradient-to:rgb(147 51 234 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-purple-900\/50{--tw-gradient-from:rgb(88 28 135 / 0.5) var(--tw-gradient-from-position);--tw-gradient-to:rgb(88 28 135 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-transparent{--tw-gradient-from:transparent var(--tw-gradient-from-position);--tw-gradient-to:rgb(0 0 0 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-blue-400{--tw-gradient-to:rgb(96 165 250 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #60a5fa var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-blue-500{--tw-gradient-to:rgb(59 130 246 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #3b82f6 var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-gray-700{--tw-gradient-to:rgb(55 65 81 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #374151 var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-blue-500{--tw-gradient-to:#3b82f6 var(--tw-gradient-to-position)}.to-blue-500\/20{--tw-gradient-to:rgb(59 130 246 / 0.2) var(--tw-gradient-to-position)}.to-blue-600{--tw-gradient-to:#2563eb var(--tw-gradient-to-position)}.to-blue-900\/50{--tw-gradient-to:rgb(30 58 138 / 0.5) var(--tw-gradient-to-position)}.to-cyan-400{--tw-gradient-to:#22d3ee var(--tw-gradient-to-position)}.to-cyan-500{--tw-gradient-to:#06b6d4 var(--tw-gradient-to-position)}.to-cyan-500\/20{--tw-gradient-to:rgb(6 182 212 / 0.2) var(--tw-gradient-to-position)}.to-gray-600{--tw-gradient-to:#4b5563 var(--tw-gradient-to-position)}.to-purple-500{--tw-gradient-to:#a855f7 var(--tw-gradient-to-position)}.to-purple-500\/20{--tw-gradient-to:rgb(168 85 247 / 0.2) var(--tw-gradient-to-position)}.to-transparent{--tw-gradient-to:transparent var(--tw-gradient-to-position)}.object-cover{object-fit:cover}.p-4{padding:1rem}.p-8{padding:2rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-8{padding-top:2rem;padding-bottom:2rem}.text-left{text-align:left}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-6xl{font-size:3.75rem;line-height:1}.text-7xl{font-size:4.5rem;line-height:1}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-semibold{font-weight:600}.leading-relaxed{line-height:1.625}.tracking-wider{letter-spacing:0.05em}.text-cyan-200{--tw-text-opacity:1;color:rgb(165 243 252 / var(--tw-text-opacity, 1))}.text-cyan-300{--tw-text-opacity:1;color:rgb(103 232 249 / var(--tw-text-opacity, 1))}.text-emerald-200{--tw-text-opacity:1;color:rgb(167 243 208 / var(--tw-text-opacity, 1))}.text-emerald-300{--tw-text-opacity:1;color:rgb(110 231 183 / var(--tw-text-opacity, 1))}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-pink-200{--tw-text-opacity:1;color:rgb(251 207 232 / var(--tw-text-opacity, 1))}.text-pink-300{--tw-text-opacity:1;color:rgb(249 168 212 / var(--tw-text-opacity, 1))}.text-purple-200{--tw-text-opacity:1;color:rgb(233 213 255 / var(--tw-text-opacity, 1))}.text-purple-300{--tw-text-opacity:1;color:rgb(216 180 254 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-white\/70{color:rgb(255 255 255 / 0.7)}.opacity-0{opacity:0}.opacity-30{opacity:0.3}.opacity-40{opacity:0.4}.opacity-60{opacity:0.6}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-blue-400\/50{--tw-shadow-color:rgb(96 165 250 / 0.5);--tw-shadow:var(--tw-shadow-colored)}.backdrop-blur-xl{--tw-backdrop-blur:blur(24px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-filter{-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.duration-700{transition-duration:700ms}.ease-in-out{transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)}.hover\:text-purple-300:hover{--tw-text-opacity:1;color:rgb(216 180 254 / var(--tw-text-opacity, 1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.focus\:border-purple-300:focus{--tw-border-opacity:1;border-color:rgb(216 180 254 / var(--tw-border-opacity, 1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.active\:cursor-grabbing:active{cursor:grabbing}.group:hover .group-hover\:scale-110{--tw-scale-x:1.1;--tw-scale-y:1.1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}</style></head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animated"></div>
+    
+    <!-- Floating Particles -->
+    <div class="particle" style="top: 10%; left: 10%; animation-delay: 0s;"></div>
+    <div class="particle" style="top: 20%; left: 80%; animation-delay: 1s;"></div>
+    <div class="particle" style="top: 60%; left: 20%; animation-delay: 2s;"></div>
+    <div class="particle" style="top: 80%; left: 70%; animation-delay: 3s;"></div>
+    <div class="particle" style="top: 40%; left: 90%; animation-delay: 4s;"></div>
+
+    <!-- Technological Elements -->
+    <div class="tech-elements">
+        <!-- Floating Circuit Nodes -->
+        <div class="circuit-node" style="top: 15%; left: 25%; animation-delay: 0s;"></div>
+        <div class="circuit-node" style="top: 35%; left: 75%; animation-delay: 2s;"></div>
+        <div class="circuit-node" style="top: 65%; left: 15%; animation-delay: 4s;"></div>
+        <div class="circuit-node" style="top: 85%; left: 85%; animation-delay: 6s;"></div>
+        
+        <!-- Data Streams -->
+        <div class="data-stream" style="top: 25%; left: 5%; animation-delay: 1s;"></div>
+        <div class="data-stream" style="top: 55%; left: 95%; animation-delay: 3s;"></div>
+        <div class="data-stream" style="top: 75%; left: 45%; animation-delay: 5s;"></div>
+        
+        <!-- Holographic Rings -->
+        <div class="holo-ring" style="top: 30%; left: 60%; animation-delay: 0.5s;"></div>
+        <div class="holo-ring" style="top: 70%; left: 30%; animation-delay: 2.5s;"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 backdrop-filter backdrop-blur-xl bg-black/20 border-b border-white/10">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="orbitron text-2xl font-bold neon-text glitch">ZERO TO FAME <span class="text-sm text-purple-300">v24</span></div>
+                <div class="flex space-x-8">
+                    <a href="https://bmcj13qkvr9hyehn.canva-hosted-embed.com/codelet/AAEAEGJtY2oxM3FrdnI5aHllaG4AAAAAAZkSOR6o6W9iB2gWLcVi4r3Ax-MjtHAmfR7FjeDBaQlPZtHdxmE/#home" class="hover:text-purple-300 transition-colors duration-300">Início</a>
+                    <a href="https://bmcj13qkvr9hyehn.canva-hosted-embed.com/codelet/AAEAEGJtY2oxM3FrdnI5aHllaG4AAAAAAZkSOR6o6W9iB2gWLcVi4r3Ax-MjtHAmfR7FjeDBaQlPZtHdxmE/#about" class="hover:text-purple-300 transition-colors duration-300">Sobre</a>
+                    <a href="https://bmcj13qkvr9hyehn.canva-hosted-embed.com/codelet/AAEAEGJtY2oxM3FrdnI5aHllaG4AAAAAAZkSOR6o6W9iB2gWLcVi4r3Ax-MjtHAmfR7FjeDBaQlPZtHdxmE/#services" class="hover:text-purple-300 transition-colors duration-300">Serviços</a>
+                    <a href="https://bmcj13qkvr9hyehn.canva-hosted-embed.com/codelet/AAEAEGJtY2oxM3FrdnI5aHllaG4AAAAAAZkSOR6o6W9iB2gWLcVi4r3Ax-MjtHAmfR7FjeDBaQlPZtHdxmE/#portfolio" class="hover:text-purple-300 transition-colors duration-300">Portfólio</a>
+                    <a href="https://bmcj13qkvr9hyehn.canva-hosted-embed.com/codelet/AAEAEGJtY2oxM3FrdnI5aHllaG4AAAAAAZkSOR6o6W9iB2gWLcVi4r3Ax-MjtHAmfR7FjeDBaQlPZtHdxmE/#contact" class="hover:text-purple-300 transition-colors duration-300">Contato</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center relative" style="opacity: 1; transform: translateY(0px); transition: 0.6s ease-out;">
+        <div class="container mx-auto px-6 text-center">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="orbitron text-7xl font-bold mb-4 neon-text glitch optimized-performance">
+                    ZERO TO FAME
+                </h1>
+                <p class="text-2xl mb-8 text-purple-200 typing" id="typing-text">Transformando ideias em experiências digitais extraordinárias</p>
+                <div class="flex flex-row gap-4 justify-center items-center">
+                    <button onclick="scrollToPortfolio()" class="cyber-btn scan-line">
+                        EXPLORAR PROJETOS
+                    </button>
+                    <a href="https://instagram.com/zerotofameoficial" target="_blank" class="cyber-btn scan-line">
+                        INICIAR CONVERSA
+                    </a>
+                </div>
+                
+                <!-- Scroll Instruction -->
+                <div class="mt-12 text-center">
+                    <div class="inline-flex items-center space-x-3 text-purple-300 animate-pulse">
+                        <svg class="w-6 h-6 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                        <span class="text-lg font-semibold tracking-wider">DESLIZE A TELA PARA CIMA</span>
+                        <svg class="w-6 h-6 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </div>
+                    <div class="mt-3 w-1 h-8 bg-gradient-to-b from-purple-400 to-transparent mx-auto animate-pulse"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Holographic elements -->
+        <div class="absolute top-20 left-10 w-20 h-20 border border-purple-400 rotate-45 animate-spin opacity-30"></div>
+        <div class="absolute bottom-20 right-10 w-16 h-16 border border-blue-400 rotate-12 animate-pulse opacity-40"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 relative" style="opacity: 0; transform: translateY(30px); transition: 0.6s ease-out;">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="orbitron text-6xl font-bold mb-4 neon-text gpu-accelerated">SOBRE MIM</h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-2 gap-12 items-center">
+                <div class="holo-card p-8 rounded-lg" style="opacity: 0; transform: translateY(30px); transition: 0.6s ease-out;">
+                    <h3 class="orbitron text-2xl font-bold mb-4 text-purple-300">Especialista em Marketing Digital</h3>
+                    <p class="text-lg mb-6 leading-relaxed">
+                        Com mais de 5 anos de experiência no universo digital, especializo-me em criar estratégias inovadoras que conectam marcas ao seu público-alvo através de tecnologias avançadas e criatividade sem limites.
+                    </p>
+                    <p class="text-lg leading-relaxed">
+                        Minha missão é transformar dados em insights poderosos e converter visitantes em clientes fiéis, utilizando as mais modernas ferramentas do marketing digital.
+                    </p>
+                </div>
+                
+                <div class="space-y-6">
+                    <div class="skill-item">
+                        <div class="flex justify-between mb-2">
+                            <span class="font-semibold">SEO &amp; SEM</span>
+                            <span class="text-purple-300">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="flex justify-between mb-2">
+                            <span class="font-semibold">Social Media</span>
+                            <span class="text-purple-300">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="flex justify-between mb-2">
+                            <span class="font-semibold">Analytics</span>
+                            <span class="text-purple-300">88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%;"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="flex justify-between mb-2">
+                            <span class="font-semibold">Email Marketing</span>
+                            <span class="text-purple-300">92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 92%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 relative" style="opacity: 0; transform: translateY(30px); transition: 0.6s ease-out;">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="orbitron text-6xl font-bold mb-4 neon-text gpu-accelerated">SERVIÇOS</h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-3 gap-8">
+                <div class="holo-card p-8 rounded-lg text-center scan-line" style="opacity: 0; transform: translateY(30px); transition: 0.6s ease-out;">
+                    <div class="w-16 h-16 mx-auto mb-6 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center neon-glow">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="orbitron text-xl font-bold mb-4 text-purple-300">SEO AVANÇADO</h3>
+                    <p class="text-gray-300">Otimização completa para motores de busca com técnicas de última geração e análise de dados em tempo real.</p>
+                </div>
+                
+                <div class="holo-card p-8 rounded-lg text-center scan-line" style="opacity: 0; transform: translateY(30px); transition: 0.6s ease-out;">
+                    <div class="w-16 h-16 mx-auto mb-6 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center neon-glow">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="orbitron text-xl font-bold mb-4 text-purple-300">SOCIAL MEDIA</h3>
+                    <p class="text-gray-300">Gestão estratégica de redes sociais com conteúdo viral e engajamento exponencial.</p>
+                </div>
+                
+                <div class="holo-card p-8 rounded-lg text-center scan-line" style="opacity: 0; transform: translateY(30px); transition: 0.6s ease-out;">
+                    <div class="w-16 h-16 mx-auto mb-6 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center neon-glow">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="orbitron text-xl font-bold mb-4 text-purple-300">ANALYTICS</h3>
+                    <p class="text-gray-300">Análise profunda de dados com dashboards interativos e insights acionáveis para crescimento acelerado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 relative" style="opacity: 0; transform: translateY(30px); transition: 0.6s ease-out;">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="orbitron text-6xl font-bold mb-4 neon-text gpu-accelerated">PORTFÓLIO</h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto"></div>
+            </div>
+            
+            <!-- Loading Line -->
+            <div class="w-full h-1 bg-gray-800 rounded-full mb-8 overflow-hidden">
+                <div class="h-full bg-gradient-to-r from-transparent via-blue-400 to-transparent w-1/3 rounded-full animate-loading-line shadow-lg shadow-blue-400/50"></div>
+            </div>
+            
+            <!-- Futuristic Portfolio Gallery -->
+            <div class="relative max-w-6xl mx-auto">
+                <!-- Central Display -->
+                <div class="cyber-gallery-container relative">
+                    <!-- Main Display -->
+                    <div class="main-display relative h-96 mb-8 rounded-2xl overflow-hidden neon-glow">
+                        <div class="absolute inset-0 bg-gradient-to-br from-purple-900/50 to-blue-900/50 z-10"></div>
+                        <img id="mainImage" class="w-full h-full object-cover transition-all duration-700 ease-in-out" src="https://blogger.googleusercontent.com/img/a/AVvXsEjL1DVcko5e0-IsQcgkePeldzVC1CR8_Lq5f0Rw4ZdQbBKjQr1gDT30OBJTyQrhwALWN9dZAoemUinS_O7Z6zlDTPzhPYpIhhqR_SNoBtgIe2cWjnVFduR99RZSPEFIyFbsZrF84B-O0lIkjxcIsG7YIZOydZkmIOamkPcWMTCKlke7ByfAwBtQOHhSN3Wu" alt="Portfolio Project">
+                        
+                        <!-- Holographic Overlay -->
+                        <div class="absolute inset-0 z-20 flex items-center justify-center">
+                            <div class="text-center">
+                                <h3 id="projectTitle" class="orbitron text-3xl font-bold mb-4 neon-text">AI INTEGRATION</h3>
+                                <p id="projectDesc" class="text-lg text-purple-200 mb-6 max-w-md mx-auto">Implementação de inteligência artificial para otimização automática de campanhas e resultados.</p>
+                                <a href="https://instagram.com/zerotofameoficial" target="_blank" class="cyber-btn">EXPLORAR PROJETO</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Scan Lines Effect -->
+                        <div class="absolute inset-0 z-30 pointer-events-none">
+                            <div class="scan-lines"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Navigation Controls -->
+                    <div class="flex justify-center mt-8 space-x-4">
+                        <button id="prevBtn" class="cyber-btn-small">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                            </svg>
+                        </button>
+                        <button id="playPauseBtn" class="cyber-btn-small">
+                            <svg id="playIcon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            <svg id="pauseIcon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </button>
+                        <button id="nextBtn" class="cyber-btn-small">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dark Mode Activation Section -->
+    <section class="py-16 relative" style="opacity: 0; transform: translateY(30px); transition: 0.6s ease-out;">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h3 class="orbitron text-3xl font-bold mb-4 neon-text gpu-accelerated">MODO ESCURO AVANÇADO</h3>
+                <p class="text-purple-200 mb-8">Arraste para ativar o sistema neural de modo escuro</p>
+                
+                <!-- Dark Mode Slider -->
+                <div class="flex justify-center items-center">
+                    <div class="relative">
+                        <!-- Slider Track -->
+                        <div id="darkModeTrack" class="relative w-80 h-20 bg-gradient-to-r from-gray-800 via-gray-700 to-gray-600 rounded-full border-2 border-purple-500/30 overflow-hidden cursor-pointer">
+                            <!-- Neural Network Background -->
+                            <div class="absolute inset-0 opacity-30">
+                                <div class="absolute top-2 left-4 w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
+                                <div class="absolute top-6 left-12 w-1 h-1 bg-purple-400 rounded-full animate-pulse" style="animation-delay: 0.5s;"></div>
+                                <div class="absolute bottom-3 left-8 w-1.5 h-1.5 bg-cyan-400 rounded-full animate-pulse" style="animation-delay: 1s;"></div>
+                                <div class="absolute top-4 right-6 w-2 h-2 bg-emerald-400 rounded-full animate-pulse" style="animation-delay: 1.5s;"></div>
+                                <div class="absolute bottom-2 right-12 w-1 h-1 bg-pink-400 rounded-full animate-pulse" style="animation-delay: 2s;"></div>
+                                
+                                <!-- Connection Lines -->
+                                <svg class="absolute inset-0 w-full h-full">
+                                    <line x1="20" y1="12" x2="50" y2="28" stroke="rgba(59, 130, 246, 0.3)" stroke-width="1"></line>
+                                    <line x1="50" y1="28" x2="35" y2="50" stroke="rgba(147, 51, 234, 0.3)" stroke-width="1"></line>
+                                    <line x1="35" y1="50" x2="280" y2="20" stroke="rgba(6, 182, 212, 0.3)" stroke-width="1"></line>
+                                    <line x1="280" y1="20" x2="300" y2="60" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1"></line>
+                                </svg>
+                            </div>
+                            
+                            <!-- Progress Fill -->
+                            <div id="darkModeProgress" class="absolute inset-0 bg-gradient-to-r from-purple-600 via-blue-500 to-cyan-400 opacity-0 transition-all duration-300 rounded-full" style="width: 0%; opacity: 0;"></div>
+                            
+                            <!-- Slider Button -->
+                            <div id="darkModeSlider" class="absolute top-1 left-1 w-18 h-18 bg-gradient-to-br from-purple-500 to-blue-600 rounded-full border-2 border-white/20 cursor-grab active:cursor-grabbing transition-all duration-300 flex items-center justify-center group" style="left: 4px;">
+                                <!-- Inner Glow -->
+                                <div class="absolute inset-1 bg-gradient-to-br from-purple-400 to-blue-500 rounded-full opacity-60"></div>
+                                
+                                <!-- Icon -->
+                                <div class="relative z-10 text-white">
+                                    <svg id="sliderIcon" class="w-8 h-8 transition-transform duration-300 group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                                    </svg>
+                                </div>
+                                
+                                <!-- Particle Effects -->
+                                <div class="absolute inset-0 rounded-full overflow-hidden">
+                                    <div class="absolute top-2 left-2 w-1 h-1 bg-white rounded-full animate-ping"></div>
+                                    <div class="absolute bottom-3 right-2 w-0.5 h-0.5 bg-cyan-300 rounded-full animate-ping" style="animation-delay: 0.5s;"></div>
+                                    <div class="absolute top-4 right-4 w-0.5 h-0.5 bg-purple-300 rounded-full animate-ping" style="animation-delay: 1s;"></div>
+                                </div>
+                            </div>
+                            
+                            <!-- Activation Text -->
+                            <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                                <span id="sliderText" class="orbitron text-sm font-bold text-white/70 tracking-wider" style="color: rgba(255, 255, 255, 0.7);">ARRASTE PARA ATIVAR</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Status Indicators -->
+                        <div class="flex justify-between mt-4 text-sm">
+                            <span class="text-gray-400">MODO CLARO</span>
+                            <span class="text-purple-300">SISTEMA NEURAL</span>
+                            <span class="text-cyan-300">MODO ESCURO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Cards Section -->
+    <section class="py-20 relative" style="opacity: 0; transform: translateY(30px); transition: 0.6s ease-out;">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="orbitron text-6xl font-bold mb-4 neon-text gpu-accelerated">DADOS DIGITAIS</h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-3 gap-8 mb-20">
+                <!-- Instagram Info Card -->
+                <div class="holo-card p-8 rounded-lg text-center scan-line" style="opacity: 0; transform: translateY(30px); transition: 0.6s ease-out;">
+                    <div class="w-20 h-20 mx-auto mb-6 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full flex items-center justify-center neon-glow">
+                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="orbitron text-xl font-bold mb-4 text-pink-300">INSTAGRAM POWER</h3>
+                    <div class="space-y-3 text-left">
+                        <p class="text-sm text-gray-300">📊 <span class="text-pink-300 font-bold">2+ bilhões</span> de usuários ativos mensais</p>
+                        <p class="text-sm text-gray-300">🎯 <span class="text-pink-300 font-bold">500 milhões</span> usam Stories diariamente</p>
+                        <p class="text-sm text-gray-300">💰 <span class="text-pink-300 font-bold">83%</span> descobrem novos produtos</p>
+                        <p class="text-sm text-gray-300">🚀 <span class="text-pink-300 font-bold">200 milhões</span> visitam perfis de negócios</p>
+                    </div>
+                    <div class="mt-6 p-4 bg-gradient-to-r from-pink-500/20 to-purple-500/20 rounded-lg border border-pink-400/30">
+                        <p class="text-xs text-pink-200 font-semibold">O Instagram é a vitrine digital mais poderosa para conectar sua marca com milhões de potenciais clientes!</p>
+                    </div>
+                </div>
+
+                <!-- Landing Page Info Card -->
+                <div class="holo-card p-8 rounded-lg text-center scan-line" style="opacity: 0; transform: translateY(30px); transition: 0.6s ease-out;">
+                    <div class="w-20 h-20 mx-auto mb-6 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-full flex items-center justify-center neon-glow">
+                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="orbitron text-xl font-bold mb-4 text-emerald-300">PÁGINAS DE VENDAS</h3>
+                    <div class="space-y-3 text-left">
+                        <p class="text-sm text-gray-300">💎 <span class="text-emerald-300 font-bold">300%</span> mais conversões que redes sociais</p>
+                        <p class="text-sm text-gray-300">⚡ <span class="text-emerald-300 font-bold">5 segundos</span> para capturar atenção</p>
+                        <p class="text-sm text-gray-300">🎯 <span class="text-emerald-300 font-bold">68%</span> das empresas B2B usam</p>
+                        <p class="text-sm text-gray-300">📈 <span class="text-emerald-300 font-bold">25%</span> aumento no ROI médio</p>
+                    </div>
+                    <div class="mt-6 p-4 bg-gradient-to-r from-emerald-500/20 to-blue-500/20 rounded-lg border border-emerald-400/30">
+                        <p class="text-xs text-emerald-200 font-semibold">Uma landing page otimizada é sua máquina de vendas 24/7, convertendo visitantes em clientes!</p>
+                    </div>
+                </div>
+
+                <!-- Internet Users Info Card -->
+                <div class="holo-card p-8 rounded-lg text-center scan-line" style="opacity: 0; transform: translateY(30px); transition: 0.6s ease-out;">
+                    <div class="w-20 h-20 mx-auto mb-6 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center neon-glow">
+                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.568 7.568l-1.414 1.414c1.25 1.25 1.25 3.282 0 4.532l1.414 1.414c2.032-2.032 2.032-5.328 0-7.36zM18.5 12c0-1.933-.84-3.67-2.182-4.886l-1.414 1.414c.87.87 1.346 2.025 1.346 3.258s-.477 2.388-1.346 3.258l1.414 1.414C17.66 15.67 18.5 13.933 18.5 12zM12 16c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4zm0-6c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="orbitron text-xl font-bold mb-4 text-cyan-300">USUÁRIOS ONLINE</h3>
+                    <div class="space-y-3 text-left">
+                        <p class="text-sm text-gray-300">🌍 <span class="text-cyan-300 font-bold">5.16 bilhões</span> usuários de internet</p>
+                        <p class="text-sm text-gray-300">📱 <span class="text-cyan-300 font-bold">4.76 bilhões</span> usuários de redes sociais</p>
+                        <p class="text-sm text-gray-300">⏰ <span class="text-cyan-300 font-bold">7h 02min</span> tempo médio online/dia</p>
+                        <p class="text-sm text-gray-300">🚀 <span class="text-cyan-300 font-bold">+4.8%</span> crescimento anual</p>
+                    </div>
+                    <div class="mt-6 p-4 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 rounded-lg border border-cyan-400/30">
+                        <p class="text-xs text-cyan-200 font-semibold">Mais da metade da população mundial está online! Seu público está esperando por você!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 relative" style="opacity: 0; transform: translateY(30px); transition: 0.6s ease-out;">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="orbitron text-6xl font-bold mb-4 neon-text gpu-accelerated">CONTATO</h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto"></div>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="grid grid-cols-2 gap-12">
+                    <div class="holo-card p-8 rounded-lg" style="opacity: 0; transform: translateY(30px); transition: 0.6s ease-out;">
+                        <h3 class="orbitron text-2xl font-bold mb-6 text-purple-300">Vamos Conversar</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center space-x-4">
+                                <div class="w-12 h-12 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center neon-glow">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Email</p>
+                                    <p class="text-purple-300">emanuelvpaulino1@gmail.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center space-x-4">
+                                <div class="w-12 h-12 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center neon-glow">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Localização</p>
+                                    <p class="text-purple-300">Cajazeiras, Paraíba - Brasil</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="holo-card p-8 rounded-lg" style="opacity: 0; transform: translateY(30px); transition: 0.6s ease-out;">
+                        <form class="space-y-6">
+                            <div>
+                                <input type="text" placeholder="Seu Nome" class="w-full bg-transparent border border-purple-400 rounded-lg px-4 py-3 focus:outline-none focus:border-purple-300 transition-colors">
+                            </div>
+                            <div>
+                                <input type="email" placeholder="Seu Email" class="w-full bg-transparent border border-purple-400 rounded-lg px-4 py-3 focus:outline-none focus:border-purple-300 transition-colors">
+                            </div>
+                            <div>
+                                <textarea placeholder="Sua Mensagem" rows="4" class="w-full bg-transparent border border-purple-400 rounded-lg px-4 py-3 focus:outline-none focus:border-purple-300 transition-colors resize-none"></textarea>
+                            </div>
+                            <button type="submit" class="cyber-btn w-full">
+                                ENVIAR MENSAGEM
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-purple-500/30">
+        <div class="container mx-auto px-6 text-center">
+            <div class="orbitron text-xl font-bold mb-4 neon-text">ZERO TO FAME <span class="text-sm text-purple-300">v24</span></div>
+            <p class="text-purple-300 mb-4">Transformando o futuro digital, um projeto por vez.</p>
+            <div class="flex justify-center space-x-6">
+                <a href="https://bmcj13qkvr9hyehn.canva-hosted-embed.com/codelet/AAEAEGJtY2oxM3FrdnI5aHllaG4AAAAAAZkSOR6o6W9iB2gWLcVi4r3Ax-MjtHAmfR7FjeDBaQlPZtHdxmE/#" class="text-purple-300 hover:text-white transition-colors">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+                    </svg>
+                </a>
+                <a href="https://bmcj13qkvr9hyehn.canva-hosted-embed.com/codelet/AAEAEGJtY2oxM3FrdnI5aHllaG4AAAAAAZkSOR6o6W9iB2gWLcVi4r3Ax-MjtHAmfR7FjeDBaQlPZtHdxmE/#" class="text-purple-300 hover:text-white transition-colors">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                    </svg>
+                </a>
+                <a href="https://instagram.com/zerotofameoficial" target="_blank" class="text-purple-300 hover:text-white transition-colors">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path>
+                    </svg>
+                </a>
+            </div>
+            <p class="text-sm text-gray-400 mt-4">© 2024 Zero To Fame v24. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        /*<![CDATA[*/
+        // Typing animation
+        const typingText = document.getElementById('typing-text');
+        const text = 'Transformando ideias em experiências digitais extraordinárias';
+        let i = 0;
+        
+        function typeWriter() {
+            if (i < text.length) {
+                typingText.innerHTML = text.substring(0, i + 1);
+                i++;
+                setTimeout(typeWriter, 50);
+            }
+        }
+        
+        // Start typing animation after page load
+        window.addEventListener('load', () => {
+            setTimeout(typeWriter, 1000);
+        });
+
+        // Function to scroll to portfolio section
+        function scrollToPortfolio() {
+            const portfolioSection = document.getElementById('portfolio');
+            if (portfolioSection) {
+                portfolioSection.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        }
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add more particles dynamically
+        function createParticle() {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.style.top = Math.random() * 100 + '%';
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.animationDelay = Math.random() * 6 + 's';
+            document.body.appendChild(particle);
+            
+            // Remove particle after animation
+            setTimeout(() => {
+                particle.remove();
+            }, 6000);
+        }
+
+        // Create new particles periodically
+        setInterval(createParticle, 3000);
+
+        // Form submission
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form elements
+            const name = this.querySelector('input[type="text"]').value;
+            const email = this.querySelector('input[type="email"]').value;
+            const message = this.querySelector('textarea').value;
+            
+            if (name && email && message) {
+                // Simulate form submission
+                const button = this.querySelector('button');
+                const originalText = button.textContent;
+                button.textContent = 'ENVIANDO...';
+                button.disabled = true;
+                
+                setTimeout(() => {
+                    button.textContent = 'MENSAGEM ENVIADA!';
+                    button.style.background = 'linear-gradient(45deg, #10b981, #059669)';
+                    
+                    setTimeout(() => {
+                        button.textContent = originalText;
+                        button.disabled = false;
+                        button.style.background = '';
+                        this.reset();
+                    }, 2000);
+                }, 1500);
+            } else {
+                alert('Por favor, preencha todos os campos!');
+            }
+        });
+
+        // Add scroll effect to navigation
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 100) {
+                nav.style.background = 'rgba(26, 11, 46, 0.95)';
+            } else {
+                nav.style.background = 'rgba(26, 11, 46, 0.1)';
+            }
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all cards and sections
+        document.querySelectorAll('.holo-card, section').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'all 0.6s ease-out';
+            observer.observe(el);
+        });
+
+        // Futuristic Portfolio Gallery
+        const portfolioData = [
+            {
+                image: "https://blogger.googleusercontent.com/img/a/AVvXsEi7smSMVbZpvnrxFVd2lIgvZ-uvGt7VNuJPt0eTJ3suP2jMbMKw1LcM8mNxgJckCgLeNkM1auEZydGIyzsVvpZJ2gz2J3nvVy9ayp0cTOKhrD8WuQHaJX2Dyxg98ZWRwxhCkzgdjtmjBWdQ-QzYQRn3XlWDIfMH3n3KORPAwcNz6n3oLGCcH-QSUQYXdtj3",
+                title: "E-COMMERCE REVOLUTION",
+                description: "Transformação digital completa com aumento de 300% nas conversões através de estratégias inovadoras."
+            },
+            {
+                image: "https://blogger.googleusercontent.com/img/a/AVvXsEiCajByQfk2p4hHrO3bEFdC7nBimiN3x7nPuu_RLk6Wpf2a1zgUmaNAYXwlyRplWL8sDG6KrUqVSnrRYSeFMknoRZnk1Lp92PquhKdP2tkgugI0mAoSoFeBtT_UJNMlwdHq-Go9GwI6RjTLKrREnkt4XgN7MMH2yx-SWaY9n92CwodHFrLJ6nnLakFWGadK",
+                title: "BRAND TRANSFORMATION",
+                description: "Rebranding futurista com crescimento de 250% no engajamento e reconhecimento da marca."
+            },
+            {
+                image: "https://blogger.googleusercontent.com/img/a/AVvXsEjGfWpffirygrN_kt5V-wZuH_agJLr8X94TZYcgC1nXvddWaE4z3e7P_LYLYS1v6D6CazSZr82yeVBuGbUwOgMxPwuGMRHmLjLLBalx612pKOKN-qKC-cUKYRMiSjCX0qmlXW2J27jAubODsQZLjVFnzctiQRez5l3gmgLFEYsQHF9u7iYCDg6y8FpsLbZ8",
+                title: "DIGITAL INNOVATION",
+                description: "Plataforma revolucionária que conecta tecnologia avançada com experiência do usuário excepcional."
+            },
+            {
+                image: "https://blogger.googleusercontent.com/img/a/AVvXsEggSiFsbo6vXgbRtfPz6jR0IWPmhS3SYMoHT2HFApkI0ozWpM5_HoHJRbhjD0BEGcEpmI1YxLHIiDg4aViGf7nu6Uvl-OUI-BGFUc_gZEGHzrlRQHEsYpCFVu1jl71lK_Rcy4XBFwfzoAkl81G6cE_k0TX4VYrgx6BnsgLz-pFW60EOo3V_SLQoswlITHC7",
+                title: "VIRAL CAMPAIGN",
+                description: "Campanha viral que alcançou 5 milhões de impressões em 48 horas com engajamento recorde."
+            },
+            {
+                image: "https://blogger.googleusercontent.com/img/a/AVvXsEjL1DVcko5e0-IsQcgkePeldzVC1CR8_Lq5f0Rw4ZdQbBKjQr1gDT30OBJTyQrhwALWN9dZAoemUinS_O7Z6zlDTPzhPYpIhhqR_SNoBtgIe2cWjnVFduR99RZSPEFIyFbsZrF84B-O0lIkjxcIsG7YIZOydZkmIOamkPcWMTCKlke7ByfAwBtQOHhSN3Wu",
+                title: "AI INTEGRATION",
+                description: "Implementação de inteligência artificial para otimização automática de campanhas e resultados."
+            },
+            {
+                image: "https://blogger.googleusercontent.com/img/a/AVvXsEhWQf0WlDGjTPk-phL94_1GIoiKU_7k3cyjWQoDGR71-zfmY1a9SCRatJCn7VSPdyKoYTfhGyH3e6kEqAqb7t4GGRwLZdI8FZlJDovVyeNUahcsfsLE-nxXup9xzw1o6hJ4XleSsGWgPQXJtBOkBahRRl0a2P0vzD4a04DM0vLOiyi5zVaFUZXupCN5nafM",
+                title: "METAVERSE MARKETING",
+                description: "Estratégias pioneiras de marketing no metaverso com experiências imersivas e interativas."
+            }
+        ];
+
+        let currentIndex = 0;
+        let isAutoPlaying = true;
+        let autoPlayInterval;
+
+        const mainImage = document.getElementById('mainImage');
+        const projectTitle = document.getElementById('projectTitle');
+        const projectDesc = document.getElementById('projectDesc');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const playPauseBtn = document.getElementById('playPauseBtn');
+        const playIcon = document.getElementById('playIcon');
+        const pauseIcon = document.getElementById('pauseIcon');
+
+        function updateDisplay(index, withTransition = true) {
+            const project = portfolioData[index];
+            
+            if (withTransition) {
+                mainImage.classList.add('glitch-transition');
+                setTimeout(() => {
+                    mainImage.classList.remove('glitch-transition');
+                }, 300);
+            }
+            
+            mainImage.src = project.image;
+            projectTitle.textContent = project.title;
+            projectDesc.textContent = project.description;
+            
+            currentIndex = index;
+        }
+
+        function nextProject() {
+            const nextIndex = (currentIndex + 1) % portfolioData.length;
+            updateDisplay(nextIndex);
+        }
+
+        function prevProject() {
+            const prevIndex = (currentIndex - 1 + portfolioData.length) % portfolioData.length;
+            updateDisplay(prevIndex);
+        }
+
+        function startAutoPlay() {
+            autoPlayInterval = setInterval(nextProject, 4000);
+            isAutoPlaying = true;
+            playIcon.classList.add('hidden');
+            pauseIcon.classList.remove('hidden');
+        }
+
+        function stopAutoPlay() {
+            clearInterval(autoPlayInterval);
+            isAutoPlaying = false;
+            playIcon.classList.remove('hidden');
+            pauseIcon.classList.add('hidden');
+        }
+
+        function toggleAutoPlay() {
+            if (isAutoPlaying) {
+                stopAutoPlay();
+            } else {
+                startAutoPlay();
+            }
+        }
+
+        // Event listeners
+        prevBtn.addEventListener('click', () => {
+            prevProject();
+            if (isAutoPlaying) {
+                stopAutoPlay();
+                startAutoPlay(); // Restart timer
+            }
+        });
+
+        nextBtn.addEventListener('click', () => {
+            nextProject();
+            if (isAutoPlaying) {
+                stopAutoPlay();
+                startAutoPlay(); // Restart timer
+            }
+        });
+
+        playPauseBtn.addEventListener('click', toggleAutoPlay);
+
+        // Random shuffle function
+        function shuffleProjects() {
+            const shuffled = [...portfolioData].sort(() => Math.random() - 0.5);
+            portfolioData.splice(0, portfolioData.length, ...shuffled);
+            updateDisplay(0, false);
+        }
+
+        // Keyboard controls
+        document.addEventListener('keydown', (e) => {
+            switch(e.key) {
+                case 'ArrowLeft':
+                    prevProject();
+                    break;
+                case 'ArrowRight':
+                    nextProject();
+                    break;
+                case ' ':
+                    e.preventDefault();
+                    toggleAutoPlay();
+                    break;
+                case 'r':
+                case 'R':
+                    shuffleProjects();
+                    break;
+            }
+        });
+
+        // Initialize gallery
+        shuffleProjects();
+        startAutoPlay();
+
+        // Pause on hover
+        const galleryContainer = document.querySelector('.cyber-gallery-container');
+        galleryContainer.addEventListener('mouseenter', () => {
+            if (isAutoPlaying) {
+                clearInterval(autoPlayInterval);
+            }
+        });
+
+        galleryContainer.addEventListener('mouseleave', () => {
+            if (isAutoPlaying) {
+                startAutoPlay();
+            }
+        });
+
+        // Dark Mode Slider Functionality
+        const darkModeTrack = document.getElementById('darkModeTrack');
+        const darkModeSlider = document.getElementById('darkModeSlider');
+        const darkModeProgress = document.getElementById('darkModeProgress');
+        const sliderText = document.getElementById('sliderText');
+        const sliderIcon = document.getElementById('sliderIcon');
+
+        let isDragging = false;
+        let startX = 0;
+        let currentX = 0;
+        let sliderPosition = 0;
+        let isDarkModeActive = false;
+
+        const trackWidth = darkModeTrack.offsetWidth;
+        const sliderWidth = darkModeSlider.offsetWidth;
+        const maxPosition = trackWidth - sliderWidth - 8; // 8px for padding
+
+        function updateSliderPosition(position) {
+            const clampedPosition = Math.max(0, Math.min(position, maxPosition));
+            const percentage = (clampedPosition / maxPosition) * 100;
+            
+            darkModeSlider.style.left = `${clampedPosition + 4}px`;
+            darkModeProgress.style.width = `${percentage}%`;
+            darkModeProgress.style.opacity = percentage / 100;
+            
+            // Update text based on position
+            if (percentage < 30) {
+                sliderText.textContent = 'ARRASTE PARA ATIVAR';
+                sliderText.style.color = 'rgba(255, 255, 255, 0.7)';
+            } else if (percentage < 70) {
+                sliderText.textContent = 'SISTEMA NEURAL ATIVO';
+                sliderText.style.color = 'rgba(59, 130, 246, 0.9)';
+            } else {
+                sliderText.textContent = 'MODO ESCURO ATIVADO';
+                sliderText.style.color = 'rgba(6, 182, 212, 1)';
+            }
+            
+            // Add glow effect based on position
+            if (percentage > 50) {
+                darkModeSlider.classList.add('slider-glow');
+            } else {
+                darkModeSlider.classList.remove('slider-glow');
+            }
+            
+            // Activate dark mode at 80% completion
+            if (percentage >= 80 && !isDarkModeActive) {
+                activateDarkMode();
+            } else if (percentage < 80 && isDarkModeActive) {
+                deactivateDarkMode();
+            }
+            
+            return clampedPosition;
+        }
+
+        function activateDarkMode() {
+            isDarkModeActive = true;
+            
+            // Add earthquake effect
+            document.body.classList.add('dark-mode-active');
+            
+            // Add smooth energy wave effect to main elements
+            document.querySelectorAll('.neon-text, .holo-card').forEach((el, index) => {
+                setTimeout(() => {
+                    el.classList.add('dark-mode-glitch');
+                    setTimeout(() => {
+                        el.classList.remove('dark-mode-glitch');
+                    }, 800);
+                }, index * 100); // Stagger the animations
+            });
+            
+            // Change slider icon
+            sliderIcon.innerHTML = `
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+            `;
+            
+            // Create particle explosion effect
+            createParticleExplosion();
+            
+            // Play smooth activation effect (visual feedback)
+            darkModeTrack.style.animation = 'darkModeEnergyWave 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
+            setTimeout(() => {
+                darkModeTrack.style.animation = '';
+            }, 600);
+        }
+
+        function deactivateDarkMode() {
+            isDarkModeActive = false;
+            document.body.classList.remove('dark-mode-active');
+            
+            // Restore original icon
+            sliderIcon.innerHTML = `
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+            `;
+        }
+
+        function createParticleExplosion() {
+            const rect = darkModeSlider.getBoundingClientRect();
+            const centerX = rect.left + rect.width / 2;
+            const centerY = rect.top + rect.height / 2;
+            
+            for (let i = 0; i < 20; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.position = 'fixed';
+                particle.style.left = centerX + 'px';
+                particle.style.top = centerY + 'px';
+                particle.style.zIndex = '9999';
+                particle.style.pointerEvents = 'none';
+                
+                const angle = (i / 20) * Math.PI * 2;
+                const velocity = 100 + Math.random() * 100;
+                const vx = Math.cos(angle) * velocity;
+                const vy = Math.sin(angle) * velocity;
+                
+                document.body.appendChild(particle);
+                
+                particle.animate([
+                    { transform: 'translate(0, 0) scale(1)', opacity: 1 },
+                    { transform: `translate(${vx}px, ${vy}px) scale(0)`, opacity: 0 }
+                ], {
+                    duration: 1000,
+                    easing: 'cubic-bezier(0.25, 0.46, 0.45, 0.94)'
+                }).onfinish = () => particle.remove();
+            }
+        }
+
+        // Mouse events for slider
+        darkModeSlider.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            startX = e.clientX - sliderPosition;
+            darkModeSlider.style.cursor = 'grabbing';
+        });
+
+        document.addEventListener('mousemove', (e) => {
+            if (!isDragging) return;
+            
+            currentX = e.clientX - startX;
+            sliderPosition = updateSliderPosition(currentX);
+        });
+
+        document.addEventListener('mouseup', () => {
+            if (!isDragging) return;
+            
+            isDragging = false;
+            darkModeSlider.style.cursor = 'grab';
+            
+            // Snap back if not fully activated
+            const percentage = (sliderPosition / maxPosition) * 100;
+            if (percentage < 80) {
+                sliderPosition = 0;
+                updateSliderPosition(0);
+            } else {
+                sliderPosition = maxPosition;
+                updateSliderPosition(maxPosition);
+            }
+        });
+
+        // Touch events for mobile
+        darkModeSlider.addEventListener('touchstart', (e) => {
+            isDragging = true;
+            startX = e.touches[0].clientX - sliderPosition;
+        });
+
+        document.addEventListener('touchmove', (e) => {
+            if (!isDragging) return;
+            
+            e.preventDefault();
+            currentX = e.touches[0].clientX - startX;
+            sliderPosition = updateSliderPosition(currentX);
+        });
+
+        document.addEventListener('touchend', () => {
+            if (!isDragging) return;
+            
+            isDragging = false;
+            
+            // Snap back if not fully activated
+            const percentage = (sliderPosition / maxPosition) * 100;
+            if (percentage < 80) {
+                sliderPosition = 0;
+                updateSliderPosition(0);
+            } else {
+                sliderPosition = maxPosition;
+                updateSliderPosition(maxPosition);
+            }
+        });
+
+        // Initialize slider
+        updateSliderPosition(0);
+        /*]]>*/
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'979148def7d2ef81',t:'MTc1Njg2MDk1OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;" src="./saved_resource(2).html"></iframe>
+
+<div class="particle" style="top: 19.7748%; left: 55.7624%; animation-delay: 4.24233s;"></div><div class="particle" style="top: 34.936%; left: 17.9804%; animation-delay: 4.6448s;"></div></body></html>
